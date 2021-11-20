@@ -3,14 +3,14 @@ Este projeto é a segunda parte do trabalho proposto na disciplina de Programaç
 
 ## Dupla: Danilo José Marins; Jorge Luiz da Silva Andara
 
-## Funcionamento
+### Funcionamento
 A ideia deste projeto é uma interface onde o usuário possa realizar o CRUD de registros por meio de uma integração com o backend que foi desenvolvido anteriormente.
 
-## Criação do App
+### Criação do App
 Para criar o projeto, rode o seguinte comando no terminal:
 ```
 npx create-react-app nomdedoprojeto
 ```
 
-##License
+## License
 [MIT](https://choosealicense.com/licenses/mit/)

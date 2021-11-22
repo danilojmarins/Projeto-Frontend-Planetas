@@ -23,4 +23,4 @@ yarn-debug.log*
 yarn-error.log*
 
 # nasa api key
-/constants/apiKey.js
+constants/apiKey.js

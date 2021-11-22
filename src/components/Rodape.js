@@ -6,7 +6,7 @@ import { GiNightSky } from 'react-icons/gi'
 
 const Rodape = () => {
     return (
-        <Navbar className="p-3" bg="dark" fixed="bottom">
+        <Navbar className="p-2" bg="dark" fixed="bottom">
             <NavbarBrand className="text-light">
                 <GiNightSky/> Órion &copy; - Todos os direitos reservados
             </NavbarBrand>

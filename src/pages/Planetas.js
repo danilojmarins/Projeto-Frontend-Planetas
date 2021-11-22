@@ -230,7 +230,7 @@ const Planetas = () => {
                                     </td>
                                 </tr>
                             ))}
-                            <tr className="bg-dark text-light">
+                            <tr className="bg-light text-dark">
                                 <td colSpan="6">Total de Registros:</td>
                                 <td>{planetas.length}</td>
                             </tr>

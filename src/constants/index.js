@@ -1,3 +1,3 @@
-import { BACKEND } from './config'
+import { BACKEND, apiNasa } from './config'
 
-export { BACKEND }
+export { BACKEND, apiNasa }

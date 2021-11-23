@@ -33,15 +33,6 @@ const Inicio = () => {
         document.title = 'Início'
     }, [])
 
-    const arrayDadosAPI = Object.values(dadosAPI)
-    console.log(arrayDadosAPI)
-
-    const copyright = arrayDadosAPI[0]
-    const date = arrayDadosAPI[1]
-    const explanation = arrayDadosAPI[2]
-    const title = arrayDadosAPI[6]
-    const urlImage = arrayDadosAPI[7]
-
     return (
         <Container fluid className="p-0">
             <Cabecalho/>
@@ -62,24 +53,26 @@ const Inicio = () => {
             &nbsp;
             <Row className="justify-content-md-center">
                 <Col className="m-auto">
-                    <h6 className="text-center">{title}</h6>
-                    <Image src={urlImage} className="rounded mx-auto d-block" width="25%"/>
+                    <h6 className="text-center">{dadosAPI.title}</h6>
+                    <Image src={dadosAPI.url} className="rounded mx-auto d-block" width="25%"/>
                 </Col>
             </Row>
             <Row className="justify-content-md-center">
                 <Col xs={12} sm={10} md={4}>
-                <h6>&nbsp;&nbsp;&nbsp;&nbsp;Image Credit & Copyright: {copyright}</h6>
-                </Col>
-            </Row>
-            &nbsp;
-            <Row className="justify-content-md-center">
-                <Col xs={12} sm={10} md={10}>
-                <p>Explanation: {explanation}</p>
+                {Object.keys(dadosAPI)[0] == "copyright"
+                    ? <h6 className="text-center">Image Credit & Copyright: {dadosAPI.copyright}</h6>
+                    : <h6 className="text-center">No Copyrights </h6>
+                }
                 </Col>
             </Row>
             <Row className="justify-content-md-center">
                 <Col xs={12} sm={10} md={10}>
-                <p>Data: {new Date(date).toLocaleDateString()}</p>
+                <p>Explanation: {dadosAPI.explanation}</p>
+                </Col>
+            </Row>
+            <Row className="justify-content-md-center">
+                <Col xs={12} sm={10} md={10}>
+                <p>Data: {new Date(dadosAPI.date).toLocaleDateString()}</p>
                 </Col>
             </Row>
             <Rodape/>

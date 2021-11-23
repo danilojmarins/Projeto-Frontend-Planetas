@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/Projeto-Frontend-Planetas/static/js/main.45d653aa.chunk.js",
+    "main.js.map": "/Projeto-Frontend-Planetas/static/js/main.45d653aa.chunk.js.map",
+    "runtime-main.js": "/Projeto-Frontend-Planetas/static/js/runtime-main.4a837a03.js",
+    "runtime-main.js.map": "/Projeto-Frontend-Planetas/static/js/runtime-main.4a837a03.js.map",
+    "static/css/2.383c0125.chunk.css": "/Projeto-Frontend-Planetas/static/css/2.383c0125.chunk.css",
+    "static/js/2.e4f0a6ce.chunk.js": "/Projeto-Frontend-Planetas/static/js/2.e4f0a6ce.chunk.js",
+    "static/js/2.e4f0a6ce.chunk.js.map": "/Projeto-Frontend-Planetas/static/js/2.e4f0a6ce.chunk.js.map",
+    "index.html": "/Projeto-Frontend-Planetas/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/Projeto-Frontend-Planetas/static/css/2.383c0125.chunk.css.map",
+    "static/js/2.e4f0a6ce.chunk.js.LICENSE.txt": "/Projeto-Frontend-Planetas/static/js/2.e4f0a6ce.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a837a03.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.e4f0a6ce.chunk.js",
+    "static/js/main.45d653aa.chunk.js"
+  ]
+}

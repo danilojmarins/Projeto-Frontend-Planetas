@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/Projeto-Frontend-Planetas/static/js/main.45d653aa.chunk.js",
-    "main.js.map": "/Projeto-Frontend-Planetas/static/js/main.45d653aa.chunk.js.map",
+    "main.js": "/Projeto-Frontend-Planetas/static/js/main.a77d978d.chunk.js",
+    "main.js.map": "/Projeto-Frontend-Planetas/static/js/main.a77d978d.chunk.js.map",
     "runtime-main.js": "/Projeto-Frontend-Planetas/static/js/runtime-main.4a837a03.js",
     "runtime-main.js.map": "/Projeto-Frontend-Planetas/static/js/runtime-main.4a837a03.js.map",
     "static/css/2.383c0125.chunk.css": "/Projeto-Frontend-Planetas/static/css/2.383c0125.chunk.css",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.4a837a03.js",
     "static/css/2.383c0125.chunk.css",
     "static/js/2.e4f0a6ce.chunk.js",
-    "static/js/main.45d653aa.chunk.js"
+    "static/js/main.a77d978d.chunk.js"
   ]
 }
